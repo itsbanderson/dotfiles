@@ -39,5 +39,7 @@ unclutter -idle 1 &
 xloadimage -fullscreen -border black -onroot /home/ben/media/images/wallpaper/misty_bw_mountains.jpg
 # Auto-lock after set amount of time
 xautolock -time 10 -locker slock &
+# Use caps key for accents (who needs capslock?)
+setxkbmap -option compose:caps
 # Let's Go!
 exec xmonad
