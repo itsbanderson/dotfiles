@@ -26,7 +26,7 @@ lyrics_directory = ~/.lyrics
 #
 mpd_host = localhost
 #
-mpd_port = 6700
+mpd_port = 6600
 #
 #mpd_connection_timeout = 5
 #
@@ -186,8 +186,10 @@ song_status_format = $8%a$9{ - $8"%t"$9}
 #song_library_format = {%n - }{%t}|{%f}
 song_library_format = %t
 #
+# TODO: Update this to the latest
 #tag_editor_album_format = {(%y) }%b
-tag_editor_album_format = %b
+#tag_editor_album_format = %b
+#
 #
 ##
 ## Note: Below variables are used for sorting songs in browser.

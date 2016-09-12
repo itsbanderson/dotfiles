@@ -26,7 +26,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'bling/vim-airline'
 Plugin 'easymotion/vim-easymotion'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'Valloric/YouCompleteMe'
+" Requires vim to be built with python
+" Plugin 'Valloric/YouCompleteMe'
 
 " Rarely used, but keep around just in case
 Plugin 'scrooloose/nerdtree'
@@ -108,10 +109,10 @@ set incsearch
 nnoremap <leader><space> :noh<cr>
 
 " Store vim files centrally
-set undodir=~/.vim/tmp/undo//
-set backupdir=~/.vim/tmp/backup// " backups
-set directory=~/.vim/tmp/swap//   " swap files
-set backup                        " enable backups
+" set undodir=~/.vim/tmp/undo//
+" set backupdir=~/.vim/tmp/backup// " backups
+" set directory=~/.vim/tmp/swap//   " swap files
+" set backup                        " enable backups
 
 " === Movement ===
 " have the h and l cursor keys wrap between lines (like <Space> and <BkSpc> do
